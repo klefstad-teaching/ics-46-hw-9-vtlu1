@@ -19,10 +19,16 @@ void load_words(set<string> & word_list, const string& file_name){
 }
 
 void print_word_ladder(const vector<string>& ladder){
+    if (ladder.size() == 0){
+        cout << "No word ladder found. " << endl;
+    }
+    else{
+    cout << "Word ladder found: ";
     for (int i = 0; i < ladder.size(); ++i){
         cout << ladder[i] << " ";
     }
-    cout << endl;
+    cout << endl;    
+    }
 }
 
 bool is_adjacent(const string& word1, const string& word2){
@@ -94,7 +100,7 @@ vector<string> generate_word_ladder(const string& begin_word, const string& end_
         }
     }
 
-    return {"No word ladder found."};
+    return {};
 }
 
 
