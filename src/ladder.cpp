@@ -22,6 +22,7 @@ void print_word_ladder(const vector<string>& ladder){
     for (int i = 0; i < ladder.size(); ++i){
         cout << ladder[i] << " ";
     }
+    cout << endl;
 }
 
 bool is_adjacent(const string& word1, const string& word2){
@@ -93,7 +94,7 @@ vector<string> generate_word_ladder(const string& begin_word, const string& end_
         }
     }
 
-    return {};
+    return {"No word ladder found.\n"};
 }
 
 
