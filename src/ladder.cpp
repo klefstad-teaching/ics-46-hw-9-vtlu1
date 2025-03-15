@@ -94,7 +94,7 @@ vector<string> generate_word_ladder(const string& begin_word, const string& end_
         }
     }
 
-    return {"No word ladder found.\n"};
+    return {"No word ladder found."};
 }
 
 
