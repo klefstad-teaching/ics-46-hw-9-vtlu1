@@ -1,7 +1,6 @@
 CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o: \
  /home/vtlu1/ICS46/HW9/src/ladder_main.cpp /usr/include/stdc-predef.h \
- /home/vtlu1/ICS46/HW9/src/ladder.cpp /home/vtlu1/ICS46/HW9/src/ladder.h \
- /usr/include/c++/11/iostream \
+ /home/vtlu1/ICS46/HW9/src/ladder.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

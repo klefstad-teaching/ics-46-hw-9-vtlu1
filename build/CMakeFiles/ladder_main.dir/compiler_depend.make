@@ -253,7 +253,6 @@ CMakeFiles/ladder_main.dir/src/ladder.cpp.o: ../src/ladder.cpp \
 
 CMakeFiles/ladder_main.dir/src/ladder_main.cpp.o: ../src/ladder_main.cpp \
   /usr/include/stdc-predef.h \
-  ../src/ladder.cpp \
   ../src/ladder.h \
   /usr/include/c++/11/iostream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
